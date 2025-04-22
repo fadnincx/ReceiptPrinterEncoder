@@ -11,7 +11,7 @@
         "script": "./dist/receipt-printer-encoder.umd.js"
       },
       "import": "./dist/receipt-printer-encoder.mjs",
-      "require": "./dist/receipt-printer-encoder.cjs"
+      "require": "./dist/receipt-printer-encoder.cjs",
       "types": "./dist/types/receipt-printer-encoder.d.ts"
   },
   "main": "dist/receipt-printer-encoder.cjs",
@@ -46,7 +46,7 @@
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-terser": "^0.4.1",
     "rollup-plugin-copy": "^3.5.0",
-    "canvas": "^2.11.2",
+    "canvas": "^3.1.0",
     "chai": "^4.3.7",
     "eslint": "^8.39.0",
     "eslint-config-google": "^0.14.0",
